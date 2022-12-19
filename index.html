@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Портфолио Романа</title>
+   <link rel="stylesheet" href="/style.css">
+   <script src="https://kit.fontawesome.com/41de810b91.js" crossorigin="anonymous" ></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>">
+</head>
+<body>
+    
+   <div id="header">
+       <div class="container">
+         <nav>
+            <div class="logo"><span>Р</span>oман.</div>
+            <ul id="sidemenu">
+               <li><a href="#header">Домой</a></li>
+               <li><a href="#about">Обо мне</a></li>
+               <li><a href="#services">Услуги</a></li>
+               <li><a href="#portfolio">Портфолио</a></li>
+               <li><a href="#contact">Контакты</a></li>
+               <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>UX/UX Дизайнер, Фронтенд разработчик</p>
+            <h1>Привет, Я<span> Роман</span><br>Цени Жизнь<br>Побеждай добром</h1>
+         </div>
+       </div>
+   </div>
+<!-- ----------------------------about------------------ -->
+    <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+                  <img src="/img/image-16-11-22-02-44.png">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">Обо Мне</h1>
+               <p>
+                  Специализируюсь на адаптивной вёрстке с компонентным подходом и высоким качеством<br>
+
+                  ⚡ Предоставляемые услуги
+
+                  ▸ Вёрстка по макетам – если у вас есть макеты в Figma, Zeplin, Sketch, Adobe XD, AI или PSD, из которых нужно сделать качественную адаптивную вёрстку.
+
+                  ▸ Перевёрстка проекта – для уже работающих сайтов/лендингов, не имеющих адаптива, или просто с недостаточно качественной / оптимизированной вёрсткой.
+
+                  ▸ Поддержка проекта – для активно развивающихся проектов, когда регулярно требуются какие-либо корректировки или вёрстка новых элементов, страниц и прочего.<br>
+
+                  ⚡ Техническая часть
+
+                  С момента начала работ будет доступно превью, размещённое на моём домене . Все проекты верстаются с использованием современных подходов и технологий:<br>
+
+                  ▸ HTML5 – Nunjucks, Pug (ранее Jade)<br>
+                  ▸ Cемантические элементы HTML5<br>
+                  ▸ БЭМ-методология (BEM methodology)<br>
+                  ▸ Микроразметка Open Graph, Schema.org<br>
+                  ▸ CSS3 – SCSS, PostCSS, Less, Stylus, Sass<br>
+                  ▸ Использование Flexbox и Grid Layout<br>
+                  ▸ Генерация спрайтов (SVG, PNG)<br>
+                  ▸ Кастомные CSS3 и SVG анимации<br>
+                  ▸ JavaScript – библиотеки на чистом JS<br>
+                  ▸ Компонентный подход (сборка Gulp'ом)<br>
+                  ▸ Git-репозиторий (GitHub или BitBucket)<br>
+                  ▸ В среднем 90+ баллов в Google PageSpeed<br>
+               </p>
+
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Навыки</p>
+                  <p class="tab-links" onclick="opentab('Experince')">Опыт</p>
+                  <p class="tab-links" onclick="opentab('Education')">Образование</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                     <li><span>UX/UX</span><br>Дизайнер</li>
+                     <li><span>Фронтенд разработчик</span><br>HTML, CSS, JavaScript, Gulp, GitHub, WordPress</li>
+                     <li><span>Бэкенд разработчик</span><br>PHP, MySQL</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="Experince">
+                  <ul>
+                     <li><span>UI/UX, Figma</span><br>Более 500 часов дизайна</li>
+                     <li><span>HTML, CSS, Gulp, GitHub, WordPress</span><br>Более 300 часов работы</li>
+                     <li><span>JavaScript</span><br>Более 350 часов </li>
+                     <li><span>PHP, MySQL</span><br>Свыше 200 часов обработки</li>
+                  </ul>
+                 
+               </ul>
+               </div>
+               <div class="tab-contents" id="Education">
+                  <ul>
+                     <li><span>2007</span><br>ЮУ (ИУБиП)</li>
+                     <li><span>2011</span><br>РГТЭУ (бывш. ЗИСТ, МКИ, МКУ, МГУК)</li>
+                     <li><span>2022</span><br>YouTube</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+    </div>
+    <!-- -------------------services------------------------------------ -->
+
+    <div id="services">
+      <div class="container">
+         <h1 class="sub-title">Мои Сервисы</h1>
+         <div class="services-list">
+            <div>
+               <i class="fas fa-code"></i>
+               <h2>Веб Дизайн</h2>
+               <p>Вёрстка по макетам – если у вас есть макеты в Figma, Zeplin, Sketch, Adobe XD, AI или PSD, из которых нужно сделать качественную адаптивную вёрстку.</p>
+               <a href="#">далее</a>
+            </div>
+            <div>
+               <i class="fas fa-crop-alt"></i>
+               <h2>UI/UX Дизайн</h2>
+               <p>Перевёрстка проекта – для уже работающих сайтов/лендингов, не имеющих адаптива, или просто с недостаточно качественной / оптимизированной вёрсткой.</p>
+               <a href="#">далее</a>
+            </div>
+            <div>
+               <i class="fab fa-app-store"></i>
+               <h2>Веб разработка</h2>
+               <p>С момента начала работ будет доступно превью, размещённое на моём домене . Все проекты верстаются с использованием современных подходов и технологий</p>
+               <a href="#">далее</a>
+            </div>
+         </div>
+      </div>
+    </div>
+
+    <!-- --------------------portfolio------------------- -->
+
+   <div id="portfolio">
+      <div class="container">
+         <h1 class="sub-title">Мои Работы</h1>
+         <div class="work-list">
+            <div class="work">
+               <img src="/img/work-1.png" >
+               <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>The app connects you yo the talanted people around the world.Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="/img/work-2.png" >
+               <div class="layer">
+                  <h3>Music App</h3>
+                  <p>The app connects you yo the talanted people around the world.Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="/img/work-3.png" >
+               <div class="layer">
+                  <h3>Online Shopping App</h3>
+                  <p>The app connects you yo the talanted people around the world.Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="btn">Еще</a>
+      </div>
+   </div>
+<!-- -------------------------contact-------------------------- -->
+
+   <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Связь со мной</h1>
+               <p><i class="fa-brands fa-telegram"></i>gra004@mail.ru</p>
+               <p><i class="fa-solid fa-phone"></i>89258716887</p>
+               <div class="social-icons">
+                  <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://vk.com/id582483838"><i class="fa-brands fa-vk"></i></a>
+                  <a href="https://wa.me/79258716887"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="https://t.me/httpstmeRrr77"><i class="fa-brands fa-telegram"></i></a>
+               </div>
+               <a href="/img/my-cv.pdf" download class="btn btn2" >Загрузка CV</a>
+            </div>
+            <div class="contact-right">
+               <form>
+                  <input type="text" name="Name" placeholder="Имя" required>
+                  <input type="email" name="Email" placeholder="Почта" required>
+                  <textarea name="Message" rows="6" placeholder="Написать"></textarea>
+                  <button type="submit" class="btn btn2">Отправить</button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p>Copyright Роман© .<i class="fa-solid fa-heart"></i>   2022</p>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+      var tablinks =  document.getElementsByClassName("tab-links");
+      var tabcontents =  document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+      }
+   </script>
+
+   <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+         sidemenu.style.right = "0";
+      }
+      
+      function closemenu(){
+         sidemenu.style.right = "-200px";
+      }
+
+   </script>
+
+   <script src="/js/form.js"></script>
+</body>
+</html>
